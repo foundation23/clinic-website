@@ -1,0 +1,139 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 67px;
+}
+
+.bottom {
+    background-color: #1FA181;
+    color: #FFFFFF;
+    outline: none;
+    text-decoration: none;
+    height: 43px;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 30px 0 0;
+}
+
+a:focus {
+    background-color: #1FA181;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.top__make-appointment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top__location__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top__menu {
+    display: none;
+}
+
+.top__location {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.top__location__place {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 3px;
+}
+
+.top__make {
+    display: flex;
+    align-items: center;
+}
+
+.top__make__appointment {
+    display: flex;
+    align-items: center;
+    padding-right: 35px;
+}
+
+.top__make-appointment span {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.top__tel-location {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .top__make {
+        display: none;
+    }
+
+    .top__location {
+        display: none;
+    }
+
+    .top__tel-location {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+    }
+
+    .top__tel-location span {
+        color: #364844;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .top__tel-location p {
+        color: #364844;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .top__menu {
+        display: block;
+        padding-right: 43px;
+        cursor: pointer;
+    }
+
+    .bottom {
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+    .top {
+        padding: 0 10px 0 10px;
+    }
+
+    .top__menu {
+        display: block;
+    }
+}

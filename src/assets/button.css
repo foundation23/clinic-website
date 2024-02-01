@@ -1,0 +1,27 @@
+button{
+    font-size: 14px;
+    width: 196px;
+    line-height: 21px;
+    font-weight: 400;
+    border-radius: 25px;
+    padding: 11px 23px 11px 23px;
+}
+
+.button__standart{
+    background-color:#0DBC91;
+    color: #FFFFFF;
+}
+.button__standart:hover,:focus{
+    background-color: #00D29F;
+    color: #FFFFFF;
+}
+.button__alternative{
+    background-color:#E2F0EF;
+    border: solid 1px #0DBC91;
+    color: #0DBC91;
+}
+.button__alternative :hover, :focus{
+    background-color:#0DBC91;
+    border: solid 1px #0DBC91;
+    color: #FFFFFF;
+}
